@@ -208,7 +208,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     position: relative;
     background:url(../images/brand/img.jpeg)no-repeat;
     background-position: center;
-    background-size: cover;
+    /*background-size: cover;*/
     z-index: 1;
     object-fit: cover;
 }
