@@ -212,6 +212,54 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     background-size: cover;
     z-index: 1;  
 }
+
+
+.button-container {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background 0.3s;
+  }
+  
+  .btn i {
+    font-size: 18px;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .facebook:hover {
+    background-color: #2d4373;
+  }
+  
+  .zalo {
+    background-color: #0084ff;
+  }
+  
+  .zalo:hover {
+    background-color: #006fcc;
+  }
+  
+  .phone {
+    background-color: #4caf50;
+  }
+  
+  .phone:hover {
+    background-color: #45a049;
+  }
+
 .welcome-hero:before {
     position: absolute;
     content: "";
@@ -241,7 +289,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     margin: 0 auto;
 }
 .welcome-btn {
-    display: inline-block;
+    /* display: inline-block;
     width: 230px;
     height: 60px;
     background: #4e4ffa;
@@ -252,7 +300,17 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
     -moz-transition:.3s linear; 
     -ms-transition:.3s linear; 
     -o-transition:.3s linear;
-    transition: .3s linear;
+    transition: .3s linear; */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: background 0.3s;
 }
 .welcome-btn:hover{
     background: #0102fa;
