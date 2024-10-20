@@ -178,7 +178,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
 /*.nav li*/
 
 /*.menu-ui-design*/
-.menu-ui-design{overflow-y:scroll;height: 350px;}
+.menu-ui-design{overflow-y:scroll;height: 600px;}
 .menu-ui-design::-webkit-scrollbar {
     width:5px;
 }
@@ -207,12 +207,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .welcome-hero {
     
     position: relative;
-    background:url(../images/brand/img.jpeg)no-repeat;
-    background-position: center;
+    background:url(../images/daunhot/bannerchinh.jpg)no-repeat;
+    background-position: left;
     background-size: cover;
-    z-index: 1;
+    z-index: 1; 
+    
 
 }
+
 .welcome-hero:before {
     position: absolute;
     content: "";
