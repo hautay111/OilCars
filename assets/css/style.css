@@ -207,14 +207,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #4e4ffa;}
 .welcome-hero {
     
     position: relative;
-    background:url(../images/daunhot/bannerchinh.jpg)no-repeat;
-    background-position: left;
+    background:url(../images/daunhot/bannerthat2.jpg)no-repeat;
+    background-position: center;
     background-size: cover;
     z-index: 1; 
-    
-
 }
-
 .welcome-hero:before {
     position: absolute;
     content: "";
